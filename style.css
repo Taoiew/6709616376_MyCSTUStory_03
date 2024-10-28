@@ -9,7 +9,7 @@
   
   /* Style the header */
   header {
-    background-color: #666;
+    background-color: #050093;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -29,7 +29,7 @@
   
   .menu {
     padding: 3px;
-    background-color: aquamarine;
+    background-color: rgb(131, 254, 252);
     border: 2px solid black;
 
   }
@@ -76,7 +76,7 @@
   /* Style the footer */
   footer {
     position: relative;
-    background-color: #777;
+    background-color: #32b8af;
     padding: 10px;
     text-align: center;
     color: white;
@@ -89,3 +89,211 @@
       height: auto;
     }
   }
+
+  .topic
+  {
+      display: none;
+      position: absolute;
+      box-shadow: 0px 8px 16px 0px gray;
+      background-color: rgb(208, 209, 207);
+      width: 15%;
+      color: black;
+  }
+  
+  .logo:hover .topic
+  {
+      display: block;
+      z-index: 1;
+  
+  }
+  
+  .list
+  {
+      height: 30px;
+      line-height: 30px;
+      padding-left: 5px;
+  }
+  .list a
+  {
+      text-decoration: none;
+      color: black;
+  }
+
+  .header3
+{
+    text-align: center;
+}
+
+  .container
+  {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: 400px;
+      width: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  
+  .box
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .year1
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .year1 img
+  {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.5s ease-in-out;
+      object-fit: cover;
+  }
+  
+  .year1 .hov1
+  {
+      opacity: 0;
+  }
+  
+  .year1:hover .hov1
+  {
+      opacity: 1;
+  }
+  
+  .year1:hover .ori1
+  {
+      opacity: 0;
+  }
+  
+  .year2
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .year2 img
+  {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.5s ease-in-out;
+      object-fit: cover;
+  }
+  
+  .year2 .hov2
+  {
+      opacity: 0;
+  }
+  
+  .year2:hover .hov2
+  {
+      opacity: 1;
+  }
+  
+  .year2:hover .ori2
+  {
+      opacity: 0;
+  }
+  
+  .year3
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .year3 img
+  {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.5s ease-in-out;
+      object-fit: cover;
+  }
+  
+  .year3 .hov3
+  {
+      opacity: 0;
+  }
+  
+  .year3:hover .hov3
+  {
+      opacity: 1;
+  }
+  
+  .year3:hover .ori3
+  {
+      opacity: 0;
+  }
+  
+  .year4
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .year4 img
+  {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.5s ease-in-out;
+      object-fit: cover;
+  }
+  
+  .year4 .hov4
+  {
+      opacity: 0;
+  }
+  
+  .year4:hover .hov4
+  {
+      opacity: 1;
+  }
+  
+  .year4:hover .ori4
+  {
+      opacity: 0;
+  }
+
+  .header2
+{
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.mainidea
+{
+    text-align: center;
+}
+
+.mainidea img
+{
+    padding: 10px;
+    width: 25%;
+    height: 50%;
+}
+
+.content p
+{
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
